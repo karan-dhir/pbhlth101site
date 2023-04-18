@@ -1,0 +1,336 @@
+/* Set body margin and font */
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Add background image and set height */
+header {
+	background-image: url("background.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+/* Set container width and center it */
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+/* Style header text */
+header h1 {
+	color: #fff;
+	font-size: 5rem;
+	text-align: center;
+	margin-top: 20%;
+}
+
+/* Style buttons */
+button {
+	background-color: #4caf50;
+	color: white;
+	border: none;
+	cursor: pointer;
+	padding: 10px 20px;
+	font-size: 1.2rem;
+	margin: 20px 0;
+}
+
+button:hover {
+	background-color: #3e8e41;
+}
+
+/* Style form input fields */
+form input[type="text"],
+form input[type="email"] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+}
+
+/* Style form submit button */
+form input[type="submit"] {
+	background-color: #4caf50;
+	color: white;
+	border: none;
+	cursor: pointer;
+	padding: 10px 20px;
+	font-size: 1.2rem;
+	margin-top: 10px;
+}
+
+form input[type="submit"]:hover {
+	background-color: #3e8e41;
+}
+/* Add a border to the container */
+.container {
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+/* Style the header */
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #2c3e50;
+	color: #fff;
+	height: 100px;
+}
+
+header h1 {
+	margin: 0;
+	font-size: 2.5rem;
+}
+
+/* Style the navigation menu */
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #34495e;
+	color: #fff;
+	height: 50px;
+	padding: 0 20px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+}
+
+nav ul li {
+	margin-right: 20px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
+/* Style the main content */
+main {
+	display: flex;
+	justify-content: space-between;
+	padding: 50px;
+}
+
+main section {
+	width: 70%;
+	padding-right: 50px;
+}
+
+main section h2 {
+	font-size: 2rem;
+	margin-bottom: 30px;
+}
+
+main section p {
+	font-size: 1.2rem;
+	line-height: 1.5;
+	margin-bottom: 30px;
+}
+
+main aside {
+	width: 30%;
+}
+
+/* Style the call-to-action section */
+.call-to-action {
+	background-color: #2980b9;
+	color: #fff;
+	padding: 50px;
+	text-align: center;
+}
+
+.call-to-action h2 {
+	font-size: 2.5rem;
+	margin-bottom: 30px;
+}
+
+.call-to-action p {
+	font-size: 1.2rem;
+	line-height: 1.5;
+	margin-bottom: 30px;
+}
+
+.call-to-action button {
+	background-color: #fff;
+	color: #2980b9;
+	border: none;
+	cursor: pointer;
+	padding: 10px 20px;
+	font-size: 1.2rem;
+	margin: 20px 0;
+}
+
+.call-to-action button:hover {
+	background-color: #eee;
+}
+
+.join-us,
+.deforestation {
+	max-width: 80%;
+	margin: 2rem auto;
+}
+
+.join-us {
+	background-color: #fff;
+	padding: 2rem;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.deforestation {
+	background-color: #f5f5f5;
+	padding: 2rem;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.join-us h2,
+.deforestation h2 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+.join-us p, .def
+  
+  /* layout styles */
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.section {
+	margin-bottom: 50px;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -15px;
+}
+
+.col {
+	flex: 1;
+	padding: 0 15px;
+}
+
+/* header styles */
+header {
+	background-color: #008000;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+header h1 {
+	font-size: 50px;
+	margin: 0;
+}
+
+header p {
+	font-size: 20px;
+	margin: 0;
+}
+
+/* main content styles */
+.main-content {
+	margin-top: 50px;
+}
+
+.main-content h2 {
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+.main-content p {
+	font-size: 20px;
+	line-height: 1.5;
+	margin-bottom: 30px;
+}
+
+/* Join Us section */
+.join-us {
+	background-color: #f2f2f2;
+	padding: 50px;
+	margin-bottom: 50px;
+}
+
+.join-us h3 {
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+.join-us p {
+	font-size: 20px;
+	line-height: 1.5;
+	margin-bottom: 30px;
+}
+
+.join-us button {
+	background-color: #008000;
+	color: #fff;
+	font-size: 20px;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.join-us button:hover {
+	background-color: #006400;
+}
+
+/* Deforestation section */
+.deforestation {
+	padding: 50px;
+	margin-bottom: 50px;
+}
+
+.deforestation h3 {
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+.deforestation p {
+	font-size: 20px;
+	line-height: 1.5;
+	margin-bottom: 30px;
+}
+
+.solution {
+	background-color: #f8f8f8;
+	border: 1px solid #ccc;
+	padding: 20px;
+	margin-top: 50px;
+	text-align: justify;
+}
+
+.solution h2 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.solution p {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 0;
+}
